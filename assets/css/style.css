@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+:root{
+    --first-color : #7562e0;
+}
+
+#container{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    max-width: 1440px;
+    
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+/*======================Header*==============================*/
+.color{
+    background: rgb(247, 247, 247)
+}
+header{
+    padding:0 100px;
+    width:100%;
+    height: 80px;
+    top: 0;
+    left: 0;
+}
+header .navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.nav-brand{
+    font-weight: 700px;
+    cursor: pointer;
+}
+
+.humburger{
+    font-size: 24px;
+    line-height: 80px;
+    display: none;
+    cursor: pointer;   
+}
+/* =======================close button===============================*/
+.close{
+    position: absolute;
+    top: 15px;
+    right: 30px;
+    font-size: 2em;
+    font-weight:bold;
+    cursor: pointer;
+    display: none;
+}
+.nav-menu{
+    display: flex;
+}
+.nav-link{
+    line-height: 80px;
+    
+    font-weight: 500px;
+   
+}
+.nav-link:hover{
+    color:#27a6fb;
+}
+.active:hover,.active{
+    color:white;
+}
+
+header{ 
+    width:100%;
+    height: 80px;
+}
+.nav-brand{
+    font-size: 2em;
+    font-weight: 700px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.humburger{
+    font-size: 24px;
+    line-height: 80px;
+    display: none;
+    cursor: pointer;
+    padding:5px;
+}
+.close{
+    position: absolute;
+    top: 15px;
+    right: 30px;
+    font-size: 2em;
+    font-weight:bold;
+    cursor: pointer;
+    display: none;
+}
+.nav-menu{
+    display: flex;
+}
+.nav-menu li{
+    padding-left: 15px;
+}
+#rejy{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+.contact_me{
+    margin: 20px;
+    border-radius: 17px;
+    padding: 10px;
+    background-color: rgb(0, 71, 138) ;
+    color: white;
+
+}
+
+/* =====================================header==================================*/
+
+#lune-img{
+    width: 20px;
+
+}
+
+
+
+.button-8 {
+  background-color: #f3f3f3;
+  border-radius: 3px;
+  border: 1px solid #7aa7c7;
+  box-shadow: rgba(255, 255, 255, .7) 0 1px 0 0 inset;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.15385;
+  margin: 0;
+  outline: none;
+  padding: 8px .8em;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+
+.button-8:hover,
+.button-8:focus {
+  background-color: #b3d3ea;
+  color: #2c5777;
+}
+
+.button-8:focus {
+  box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
+}
+
+.button-8:active {
+  background-color: #a0c7e4;
+  box-shadow: none;
+  color: #2c5777;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav--link{
+    margin-left: 0.5rem;
+}
+
+.nigth-mode{
+    width: 20px;
+    height: 20px;
+    margin-left: 5rem;
+}
+
+.brand{
+    display: flex;
+    padding-left: 1rem;
+    margin-top: 1rem;
+}
+
+.brand-left{
+    width: 60%;
+}
+
+.brand-rigth{
+    width: 40%;
+}
+
+#bot-social{
+    display: flex;
+}
+
+.img-container{
+    width: 300px;
+    height: 300px;
+    border-radius: 100% ;
+    border: 1rem solid var(--first-color);
+}
+
+.img-container img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.brand-left-header{
+    font-size: 2rem;
+}
+
+.btn{
+    margin-top: 2rem;
+    width: 25%;
+    background: none;
+    font-size: 1rem;
+    padding: 1.5rem;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    box-shadow: 0.3em 0.3em var(--first-color),inset 0.3em 0.3em var(--first-color) ;
+}
+
+.brand-description{
+    margin-top: 2rem;
+}
+
+.btn:hover{
+    box-shadow: 0em 0em var(--first-color),inset 0em 0em var(--first-color) ;
+}
+
+#btn-size-icon{
+    margin-top: 3rem;
+    margin-right: 1rem;
+    background: none;
+    border: none;
+}
+
+#size-icon{
+    width: 25px;
+    height:25px;
+    background: none;
+}
+
+.service{
+    display: block;
+    margin-top: 3rem;
+    text-align: center;
+    background-color: none;
+}
+
+.service-entete{
+    letter-spacing: 0.8rem;
+}
+
+.service-offred{
+    display: flex;
+    margin-top: 5rem;
+    /* border: 1px solid red; */
+}
+
+.service-web{
+    width: 50%;
+    display: block;
+    text-align: center;
+}
+
+.service-app{
+    width: 50%;
+    display: block;
+    text-align: center;
+    height: 350px;
+}
+
+.icon-service-app{
+    width: 25px;
+    height: 25px;
+}
+
+.icon-service-web{
+    width: 25px;
+    height: 25px;
+}
+
+#text-service{
+    margin-top: 3rem;
+    margin-left: 25%;
+    margin-right: 25% ;    
+}
