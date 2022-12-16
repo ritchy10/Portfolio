@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+:root{
+    --first-color : #7562e0;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    padding: 1rem 100px 0px 100px ;
+    
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.header{
+    
+}
+
+.header-title{
+    color: var(--first-color);
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav--link{
+    margin-left: 0.5rem;
+}
+
+.nigth-mode{
+    width: 20px;
+    height: 20px;
+    margin-left: 5rem;
+}
+
+.brand{
+    display: flex;
+    padding-left: 1rem;
+    margin-top: 1rem;
+}
+
+.brand-left{
+    width: 60%;
+}
+
+.brand-rigth{
+    width: 40%;
+}
+
+.img-container{
+    width: 300px;
+    height: 300px;
+    border-radius: 50% ;
+    border: 1rem solid var(--first-color);
+}
+
+.img-container img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    /* border: 1rem solid white; */
+}
+
+.brand-left-header{
+    font-size: 2rem;
+}
+
+.btn{
+    margin-top: 2rem;
+    width: 25%;
+    background: none;
+    font-size: 1rem;
+    padding: 1.5rem;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    box-shadow: 0.3em 0.3em var(--first-color),inset 0.3em 0.3em var(--first-color) ;
+}
+
+.brand-description{
+    margin-top: 2rem;
+}
+
+.btn:hover{
+    box-shadow: 0em 0em var(--first-color),inset 0em 0em var(--first-color) ;
+}
+
+#btn-size-icon{
+    margin-top: 3rem;
+    margin-right: 1rem;
+    background: none;
+    border: none;
+}
+
+#size-icon{
+    width: 25px;
+    height:25px;
+    background: none;
+}
+
+.service{
+    display: block;
+    margin-top: 3rem;
+    text-align: center;
+    background-color: none;
+}
+
+.service-entete{
+    letter-spacing: 0.8rem;
+}
+
+.service-offred{
+    display: flex;
+    margin-top: 5rem;
+    /* border: 1px solid red; */
+}
+
+.service-web{
+    width: 50%;
+    display: block;
+    text-align: center;
+    border: 1px solid red;
+}
+
+.service-app{
+    width: 50%;
+    display: block;
+    text-align: center;
+    height: 350px;
+}
+
+.icon-service-app{
+    width: 25px;
+    height: 25px;
+}
+
+.icon-service-web{
+    width: 25px;
+    height: 25px;
+}
+
+#text-service{
+    margin-top: 3rem;
+    margin-left: 25%;
+    margin-right: 25% ;    
+}
