@@ -3,6 +3,7 @@
 *{
     padding: 0px;
     margin: 0px;
+    color: #4d5254;
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
@@ -109,8 +110,8 @@ header{
 .nav-menu li{
     padding-left: 15px;
 }
-#rejy{
-    color: black;
+#rlm{
+    color: #4d5254;
     text-decoration: none;
     font-weight: bold;
 }
@@ -126,52 +127,59 @@ header{
 /* =====================================header==================================*/
 
 #lune-img{
-    width: 20px;
+    width: 25px;
+    height: 25px;
+    margin-right: 2rem;
 
 }
 
-
-
-.button-8 {
-  background-color: #f3f3f3;
-  border-radius: 3px;
-  border: 1px solid #7aa7c7;
-  box-shadow: rgba(255, 255, 255, .7) 0 1px 0 0 inset;
+.button-6 {
+  align-items: center;
+  background-color: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
   box-sizing: border-box;
+  color: rgba(0, 0, 0, 0.85);
   cursor: pointer;
-  display: inline-block;
-  font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
-  font-size: 13px;
-  font-weight: 400;
-  line-height: 1.15385;
+  display: inline-flex;
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
   margin: 0;
-  outline: none;
-  padding: 8px .8em;
+  min-height: 3rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
   position: relative;
-  text-align: center;
   text-decoration: none;
+  transition: all 250ms;
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
   vertical-align: baseline;
-  white-space: nowrap;
+  width: auto;
 }
 
-.button-8:hover,
-.button-8:focus {
-  background-color: #b3d3ea;
-  color: #2c5777;
+.button-6:hover,
+.button-6:focus {
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  color: rgba(0, 0, 0, 0.65);
 }
 
-.button-8:focus {
-  box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
+.button-6:hover {
+  transform: translateY(-1px);
 }
 
-.button-8:active {
-  background-color: #a0c7e4;
-  box-shadow: none;
-  color: #2c5777;
+.button-6:active {
+  background-color: #F0F0F1;
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  color: rgba(0, 0, 0, 0.65);
+  transform: translateY(0);
 }
+
 
 a{
     text-decoration: none;
@@ -190,16 +198,9 @@ a{
 
 .brand{
     display: flex;
-    padding-left: 1rem;
     margin-top: 1rem;
-}
-
-.brand-left{
-    width: 60%;
-}
-
-.brand-rigth{
-    width: 40%;
+    justify-content: center;
+    align-items: center;
 }
 
 #bot-social{
@@ -237,6 +238,16 @@ a{
 
 .brand-description{
     margin-top: 2rem;
+}
+#my-name{
+    color: #4d525497;
+    letter-spacing: 5px;
+    font-size: 20px;
+    
+}
+
+#nom{
+    color: var(--first-color);
 }
 
 .btn:hover{
